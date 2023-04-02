@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;700&display=swap');
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap');
+
 html {
 	font-family: 'Montserrat', sans-serif;
 	scroll-behavior: smooth;
@@ -11,7 +12,7 @@ html {
 header {
 	width: 100%;
 	height: 100vh;
-	padding: 30px 20px;
+	padding: 25px 20px;
 	background-image: url('../img/header-photo.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -26,6 +27,24 @@ header h1 {
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	font-weight: 400;
+	text-shadow: black 0.1em 0.1em 0.2em;
+}
+header h2 {
+	font-weight: 200;
+	text-shadow: black 0.1em 0.1em 0.2em;
+}
+header a {
+	text-decoration: none;
+	color: white;
+	border: solid 1px white;
+	border-radius: 5px;
+	padding: 10px;
+	text-shadow: black 0.1em 0.1em 0.2em;
+	background-color: #ffffff15;
+}
+header a:hover {
+	background-color: #ffffff46;
+	transition: 0.5s;
 }
 .contact {
 	padding: 10px;
