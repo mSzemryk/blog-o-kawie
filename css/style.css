@@ -3,7 +3,7 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap');
 html {
 	font-family: 'Montserrat', sans-serif;
 }
@@ -23,4 +23,11 @@ html {
 .single_contact i {
 	font-size: 50px;
 	color: rgb(192, 165, 91);
+}
+.map {
+	padding: 10px;
+}
+iframe {
+	margin-top: 10px;
+	width: 100%;
 }
