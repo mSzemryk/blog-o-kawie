@@ -47,6 +47,32 @@ header a:hover {
 	background-color: #ffffff46;
 	transition: 0.5s;
 }
+.cafe {
+	background-image: url('../img/caffee.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	width: 100%;
+}
+.cafe h2 {
+	color: white;
+	text-shadow: black 0.1em 0.1em 0.2em;
+	font-weight: 400;
+	padding: 20px 30px;
+}
+.single_cafe {
+	margin: 10px;
+	padding: 20px;
+	margin-bottom: 10px;
+	background-color: rgba(255, 255, 255, 0.445);
+}
+.single_cafe a {
+	text-decoration: none;
+	color: black;
+	align-self: flex-end;
+}
+
 .contact {
 	padding: 10px;
 }
