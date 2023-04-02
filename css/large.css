@@ -1,3 +1,9 @@
 iframe {
 	max-width: 970px;
 }
+header a {
+	background-color: #ffffff52;
+}
+header h1 {
+	font-size: 90px;
+}
