@@ -3,6 +3,10 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;800&display=swap');
+html {
+	font-family: 'Montserrat', sans-serif;
+}
 .contact {
 	padding: 10px;
 }
