@@ -16,3 +16,6 @@ header h1 {
 	flex-direction: row;
 	flex-wrap: nowrap;
 }
+/* .animation {
+	display: none !important;
+} */
